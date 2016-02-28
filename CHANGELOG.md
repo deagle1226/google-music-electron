@@ -1,4 +1,14 @@
 # google-music-electron changelog
+2.9.0 - Updated deprecated requires and Electron methods
+
+2.8.0 - Added Edit menu for OS X editing support via @chushao in #36
+
+2.7.0 - Upgraded to `electron@0.36.2` to patch OS specific crashes. Fixes #29
+
+2.6.0 - Relocated `install-mpris` command from running inside `electron` to `node` launcher (part of #25)
+
+2.5.1 - Followed renamed `google-music` to `gmusic.js`
+
 2.5.0 - Upgraded to `google-music@3.3.0` to receive error noise patches
 
 2.4.0 - Increased `min-width` of arrow container to prevent shrinking arrows. Fixes #26

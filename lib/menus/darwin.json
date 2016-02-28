@@ -18,6 +18,35 @@
       "accelerator": "Command+Q"
     }]
   }, {
+    "label": "Edit",
+    "submenu": [{
+      "label": "Undo",
+      "role": "undo",
+      "accelerator": "Command+Z"
+    }, {
+      "label": "Redo",
+      "role": "redo",
+      "accelerator": "Shift+Command+Z"
+    }, {
+      "type": "separator"
+    }, {
+      "label": "Cut",
+      "role": "cut",
+      "accelerator": "Command+X"
+    }, {
+      "label": "Copy",
+      "role": "copy",
+      "accelerator": "Command+C"
+    }, {
+      "label": "Paste",
+      "role": "paste",
+      "accelerator": "Command+V"
+    }, {
+      "label": "Select All",
+      "role": "selectall",
+      "accelerator": "Command+A"
+    }]
+  }, {
     "label": "View",
     "submenu": [{
       "label": "Reload",
@@ -39,11 +68,8 @@
     "label": "Window",
     "submenu": [{
       "label": "Minimize",
-      "selector": "performMiniaturize:",
+      "role": "minimize",
       "accelerator": "Command+M"
-    }, {
-      "label": "Zoom",
-      "selector": "performZoom:"
     }]
   }]
 }
